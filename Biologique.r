@@ -68,7 +68,7 @@ d <- matrix(c(1.64,1.8,1.95,
               1.75,1.93,2.1,
               0.39,0.44,0.48,
               1.29,1.58,1.84,
-              1.1,14,1.17),
+              1.1,1.14,1.17),
             3, 5)   #3 colonnes, 5 lignes 
 s <- c(0.33,0.5,0.66)   # probabilités --> quantiles 
 myfit4 <- fitdist(vals = d, probs = s, lower = 0, upper = 4)
