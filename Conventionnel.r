@@ -19,10 +19,10 @@ library(shiny)
 
 # ---------------------
 # 1) Rendement tomate 
-a <- matrix(c(x,x,x,
-              x,x,x,
-              x,x,x,
-              x,x,x,
+a <- matrix(c(1020,1100,1170,
+              656,778,892,
+              212,306,395,
+              185,216,245,
               x,x,x),
             3, 5)   #3 colonnes, 5 lignes 
 p <- c(0.33,0.5,0.66)   # probabilités --> quantiles 
@@ -34,10 +34,10 @@ feedback(myfit1)
 
 # ---------------------
 # 2) Prix de vente tomate 
-b <- matrix(c(x,x,x,
-              x,x,x,
-              x,x,x,
-              x,x,x,
+b <- matrix(c(3.27,3.69,4.09,
+              4.11,4.79,5.43,
+              4.1,4.5,4.87,
+              4.13,4.37,4.6,
               x,x,x),
             3, 5)   #3 colonnes, 5 lignes 
 q <- c(0.33,0.5,0.66)   # probabilités --> quantiles 
@@ -49,10 +49,10 @@ feedback(myfit2)
 
 # ---------------------
 # 3) Temps de travail pour la tomate 
-c <- matrix(c(x,x,x,
-              x,x,x,
-              x,x,x,
-              x,x,x,
+c <- matrix(c(118,127,136,
+              39.8,48.6,56.9,
+              69.5,80,89.8,
+              36.7,38.9,40.9,
               x,x,x),
             3, 5)   #3 colonnes, 5 lignes 
 r <- c(0.33,0.5,0.66)   # probabilités --> quantiles 
@@ -64,10 +64,10 @@ feedback(myfit3)
 
 # ---------------------
 # 4) Coût d'achat d'un plan de tomates 
-d <- matrix(c(x,x,x,
-              x,x,x,
-              x,x,x,
-              x,x,x,
+d <- matrix(c(1.64,1.8,1.95,
+              0.93,1.11,1.28,
+              2.23,2.4,2.56,
+              1.22,1.36,1.48,
               x,x,x),
             3, 5)   #3 colonnes, 5 lignes 
 s <- c(0.33,0.5,0.66)   # probabilités --> quantiles 
